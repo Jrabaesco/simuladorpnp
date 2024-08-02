@@ -21002,7 +21002,7 @@
         ]
       },
       {
-        "question": "2091. ¿DÓNDE SE PROHÍBE EL CULTIVO DE COCA Y ALMÁCIGOS?",
+        "question": "2091. ¿DÓNDE SE PROHÍBE EL CULTIVO DE COCA Y ALMÁCIGOS?. MARQUE LA RESPUESTA CORRECTA",
         "options": [
           {"text": "EN ÁREAS EMPADRONADAS POR LA AUTORIDAD COMPETENTE.", "correct": false},
           {"text": "EN ÁREAS CONTROLADAS PARA EL CULTIVO ALTERNATIVO.", "correct": false},
@@ -21082,7 +21082,7 @@
         ]
       },
       {
-        "question": "2099. ¿QUÉ REGISTROS LEVANTA LA AUTORIDAD COMPETENTE DEL GOBIERNO CENTRAL, REGIONAL O LOCAL, EN ÁREAS DE CULTIVO DE SU DEMARCACIÓN, QUE SIRVE PARA IDENTIFICAR A LOS PROPIETARIOS O POSESIONARIOS DE LOS TERRENOS, EN DONDE EXISTAN LABORATORIOS RÚSTICOS DE ELABORACIÓN DE DROGAS Y PISTAS DE ATERRIZAJE CLANDESTINAS?",
+        "question": "2099. ¿QUÉ REGISTROS LEVANTA LA AUTORIDAD COMPETENTE DEL GOBIERNO CENTRAL, REGIONAL O LOCAL, EN ÁREAS DE CULTIVO DE SU DEMARCACIÓN, QUE SIRVE PARA IDENTIFICAR A LOS PROPIETARIOS O POSESIONARIOS DE LOS TERRENOS, EN DONDE EXISTAN LABORATORIOS RÚSTICOS DE ELABORACIÓN DE DROGAS Y PISTAS DE ATERRIZAJE CLANDESTINAS?. MARQUE LA RESPUESTA CORRECTA:",
         "options": [
           {"text": "GEOGRÁFICOS.", "correct": false},
           {"text": "DE UBICACIÓN GEOREFERENCIADA.", "correct": false},
@@ -21125,10 +21125,10 @@
         "question": "2103. INCAUTACIONES Y DECOMISOS.- SON OBJETO DE INCAUTACIÓN LOS SIGUIENTES BIENES:.",
         "options": [
           {"text": "LAS ARMAS, MUNICIONES U OTROS ELEMENTOS DE ORIGEN ILÍCITO O EMPLEADAS EN LA COMISIÓN DEL DELITO.", "correct": true},
-          {"text": "LOS BIENES MUEBLES E INMUEBLES, TALES COMO VEHÍCULOS, NAVES, ARTEFACTOS NAVALES O AÉREOS, AERONAVES Y SEMOVIENTES O SOPORTES EMPLEADOS COMO MEDIOS O INSTRUMENTOS PARA FACILITAR LA COMISIÓN DEL DELITO.", "correct": false},
-          {"text": "LA VINCULACIÓN CON LOS PRESUNTOS AUTORES O PARTICIPES.", "correct": false},
-          {"text": "EN LOS ALMACENES DE LA DIRECCIÓN GENERAL CONTRA EL CRIMEN ORGANIZADO O QUIEN HAGA SUS VECES.", "correct": false},
-          {"text": "PESAJE Y ANÁLISIS.", "correct": false}
+          {"text": "LAS MATERIAS PRIMAS U OBJETOS DEL DELITO DE TRÁFICO ILÍCITO DE DROGAS.", "correct": false},
+          {"text": "LOS ELEMENTOS, HERRAMIENTAS O INSTRUMENTOS DE USO INDIRECTO PARA EL CULTIVO Y EXPLOTACIÓN ILÍCITA DE LA COCA.", "correct": false},
+          {"text": "LAS SUSTANCIAS QUÍMICAS.", "correct": false},
+          {"text": "LAS SUSTANCIAS QUÍMICAS Y LAS MATERIAS PRIMAS.", "correct": false}
         ]
       },
       {
@@ -21146,9 +21146,9 @@
         "options": [
           {"text": "LA VINCULACIÓN CON LOS PRESUNTOS AUTORES O PARTICIPES.", "correct": true},
           {"text": "EL GRADO DE CONSANGUINIDAD CON LOS AUTORES DEL DELITO.", "correct": false},
-          {"text": "EN LOS ALMACENES DE LA DIRECCIÓN GENERAL CONTRA EL CRIMEN ORGANIZADO O QUIEN HAGA SUS VECES.", "correct": false},
-          {"text": "LA POLICÍA NACIONAL DEL PERÚ.", "correct": false},
-          {"text": "PESAJE Y ANÁLISIS.", "correct": false}
+          {"text": "PERTENECER A LA FAMILIA DE LOS PRESUNTOS AUTORES O PARTICIPES.", "correct": false},
+          {"text": "LA VINCULACIÓN CON LOS PRESUNTOS AUTORES O TESTIGOS.", "correct": false},
+          {"text": "LA NO VINCULACIÓN CON LOS PRESUNTOS AUTORES O PARTÍCIPES.", "correct": false}
         ]
       },
       {
@@ -22307,7 +22307,7 @@
         ]
       },
       {
-        "question": "2221. EL CONOCIMIENTO DEL ORIGEN ILÍCITO QUE TIENE O QUE DEBÍA PRESUMIR EL AGENTE DE LOS DELITOS QUE CONTEMPLA",
+        "question": "2221. EL CONOCIMIENTO DEL ORIGEN ILÍCITO QUE TIENE O QUE DEBÍA PRESUMIR EL AGENTE DE LOS DELITOS QUE CONTEMPLA EL PRESENTE DECRETO LEGISLATIVO CORRESPONDE A ACTIVIDADES CRIMINALES COMO LOS DELITOS DE:",
         "options": [
           {"text": "TRATA DE ANIMALES", "correct": false},
           {"text": "TRATA DE PERSONAS", "correct": true},
@@ -22864,10 +22864,10 @@
         {
           "question": "2276. SON SUJETOS DE PROTECCIÓN DE LA LEY, LAS MUJERES DURANTE TODO SU CICLO DE VIDA, QUE COMPRENDE DESDE:",
           "options": [
-            {"text": "NIÑA, ADOLESCENTES, JOVEN, ADULTA Y JOVEN MAYOR.", "correct": true},
+            {"text": "NIÑA, ADOLESCENTES, JOVEN, ADULTA Y JOVEN MAYOR.", "correct": false},
             {"text": "NIÑA, ADOLESCENTES, ADULTA Y ADULTA MAYOR.", "correct": false},
             {"text": "NIÑA, ADOLESCENTES, JOVEN Y ADULTA MAYOR.", "correct": false},
-            {"text": "NIÑA, ADOLESCENTES, JOVEN, ADULTA Y ADULTA MAYOR.", "correct": false},
+            {"text": "NIÑA, ADOLESCENTES, JOVEN, ADULTA Y ADULTA MAYOR.", "correct": true},
             {"text": "NIÑA, ADOLESCENTES, JOVEN, ADULTA Y ADULTA MENOR.", "correct": false}
           ]
         },
@@ -23138,7 +23138,7 @@
             {"text": "IMPEDIMENTO DE AISLAMIENTO O PROXIMIAD A LA VÍCTIMA EN CUALQUIER FORMA.", "correct": false},
             {"text": "IMPEDIMENTO DE COMUNICACIÓN O ACERCAMIENTO A LA VÍCTIMA EN CUALQUIER FORMA.", "correct": false},
             {"text": "IMPEDIMENTO DE DECLARACIÓN O PROXIMIDAD A LA VÍCTIMA EN CUALQUIER FORMA.", "correct": false},
-            {"text": "IMPEDIMENTO DE ACERCAMIENTO O PROXIMIDAD A LA VÍCTIMA EN CUALQUIER FORMA.", "correct": false}
+            {"text": "IMPEDIMENTO DE AFIRMACIÓN O PROXIMIDAD A LA VÍCTIMA EN CUALQUIER FORMA.", "correct": false}
           ]
         },
         {
