@@ -9752,10 +9752,10 @@
       {
         "question": "970. SEGÚN EL D. LEG. 1291, SON RESPONSABLES DE SUPERVISAR EL CUMPLIMIENTO DE LAS RENDICIONES DE CUENTAS:",
         "options": [
-            {"text": "EL JEFE DE REGION POLICIAL, FRENTES POLICIALES O DIVISIONES ESPECIALIZADAS", "correct": true},
+            {"text": "EL JEFE DE REGION POLICIAL, FRENTES POLICIALES O DIVISIONES ESPECIALIZADAS", "correct": false},
             {"text": "EL JEFE DE REGION POLICIAL, FRENTES REGIONALES O DIRECCIONES ESPECIALIZADAS", "correct": false},
             {"text": "EL JEFE DE DIVISION POLICIAL, FRENTES POLICIALES O DIRECCIONES ESPECIALIZADAS", "correct": false},
-            {"text": "EL JEFE DE REGION POLICIAL, FRENTES POLICIALES O DIRECCIONES ESPECIALIZADAS", "correct": false},
+            {"text": "EL JEFE DE REGION POLICIAL, FRENTES POLICIALES O DIRECCIONES ESPECIALIZADAS", "correct": true},
             {"text": "EL JEFE DE MACRO REGION POLICIAL, FRENTES POLICIALES O DIRECCIONES ESPECIALIZADAS", "correct": false}
         ]
       },
@@ -15997,8 +15997,8 @@
     {
       "question": "1592. EL FUNCIONARIO PÚBLICO QUE, ABUSANDO DE SU CARGO, SUSPENDE O CLAUSURA ALGÚN MEDIO DE COMUNICACIÓN SOCIAL O IMPIDE SU CIRCULACIÓN O DIFUSIÓN, COMETE DELITO DE:",
       "options": [
-          {"text": "VIOLACIÓN DE LA LIBERTAD DE EXPRESIÓN.", "correct": false},
-          {"text": "VIOLACIÓN DE LA LIBERTAD DE CULTURA.", "correct": true},
+          {"text": "VIOLACIÓN DE LA LIBERTAD DE EXPRESIÓN.", "correct": true},
+          {"text": "VIOLACIÓN DE LA LIBERTAD DE CULTURA.", "correct": false},
           {"text": "VIOLACIÓN DE LA LIBERTAD DE PROGRAMACIÓN.", "correct": false},
           {"text": "PROHIBICIÓN DE LA LIBERTAD DE EXPRESARSE.", "correct": false},
           {"text": "PROHIBICIÓN DE LA LIBERTAD DE CULTURA.", "correct": false}
