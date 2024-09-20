@@ -15967,11 +15967,11 @@
     {
       "question": "1589. EL QUE, CON VIOLENCIA O AMENAZA, IMPIDE O PERTURBA UNA REUNIÓN PÚBLICA LÍCITA, COMETE DELITO DE:",
       "options": [
-          {"text": "PERTURBACIÓN DE REUNIÓN PÚBLICA.", "correct": false},
+          {"text": "PERTURBACIÓN DE REUNIÓN PÚBLICA.", "correct": true},
           {"text": "VIOLACIÓN DE LA LIBERTAD DE REUNIÓN.", "correct": false},
           {"text": "VIOLACIÓN DE REUNIÓN PÚBLICA.", "correct": false},
           {"text": "VIOLACIÓN DE REUNIÓN AUTORIZADA.", "correct": false},
-          {"text": "PERTURBACIÓN DE REUNIÓN CON VIOLENCIA.", "correct": true}
+          {"text": "PERTURBACIÓN DE REUNIÓN CON VIOLENCIA.", "correct": false}
       ]
     },
     {
