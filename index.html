@@ -3,56 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Examen PNP</title>
+    <title>Estudios Policiales PNP | Capacitación para Efectivos</title>
+    <link rel="shortcut icon" href="setting/LOGO TIT.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="whatsapp.css">
 </head>
 <body>
-    <div id="main-menu">
-        <img class="imagen" src="setting/logo.jpg" alt="logo">
-        <h1 class="title">POLICÍA NACIONAL DEL PERÚ</h1>
-        <h2 class="title">Suboficiales de Armas <br><span class="agregado">actualizado 17/jul/2024</span></h2>
-        <h3 class="title">Proceso de Ascenso 2024 - Promoción 2025</h3><br>
-        <div class="button-container">
-            <button class="btn-intro" onclick="showExamOptions()">INGRESAR<br> SIMULADOR DE EXAMEN</button><br><br>
-            <button class="btn-intro" onclick="window.location.href='https://jrabaesco.github.io/ascensopol/'">ESTUDIAR POR TEMAS<br><span class="recomendar">(DIDÁCTICO)</span></button>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="setting/LOGO TIT.ico" alt="Logo PNP">
+                    <h1>Estudios Estratégico Policial</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#producto">Producto</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="option-qz" id="exam-options" style="display:none;">
-        <h2 class="title">Suboficiales de Armas</h2>
-        <h3 class="title">Balotario Actualizado, generador de examen:</h3>
-        <div class="button-container">
-            <button class="option" onclick="startExam(20)">20 Preguntas</button><br>
-            <button class="option" onclick="startExam(50)">50 Preguntas</button><br>
-            <button class="option" onclick="startExam(100)">100 Preguntas <br> <span class="recomendar">(recomendado)</span></button><br>
-            <button class="backmain" onclick="backToMainMenu()">Regresar al Menú Principal</button>
+    <section class="hero" id="inicio">
+        <img src="setting/examenestudio.jpg" alt="Efectivos PNP en formación" class="hero-bg">
+        
+        <div class="hero-content">
+            <h2>Estudio Estratégico Policial</h2>
+            <p>Herramientas didácticas y especializadas para tu preparación y ascenso en la Policía Nacional del Perú</p>
+            <p>"¡El camino hacia tu ASCENSO, empieza aqui!"</p>
+            
+            <div class="hero-buttons">
+                <a href="#producto" class="btn">Ver Producto</a>
+                <a href="https://estrapol.vercel.app/" target="_blank" class="btn" style="background-color: var(--blanco); color: var(--verde-oscuro);">Ingresar</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="exam" id="exam-container" style="display:none;">
-        <div id="timer" class="timer"></div>
-        <div id="question-container"></div>
-        <div class="button-container">
-            <button class="option-2" onclick="prevQuestion()">Anterior</button>
-            <button class="option-2" onclick="nextQuestion()">Siguiente</button>
-            <button class="option-2" onclick="finishExam()">Finalizar Examen</button><br>
-            <button class="backmain" onclick="backToMainMenu()">Regresar al Menú Principal</button>
+    </section>
+
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Servicios</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Balotario Didáctico</h3>
+                    <p>Material completo con preguntas y respuestas desarrolladas para tu mejor comprensión.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Examen por Temas</h3>
+                    <p>Pruebas especializadas por áreas de conocimiento para una preparación focalizada.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-clipboard-list"></i>
+                    <h3>Examen Tipo SIECOPOL</h3>
+                    <p>Cien (100) preguntas distribuidas igual al exámen SIECOPOL.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Corrección de Errores</h3>
+                    <p>Retroalimentación detallada de tus respuestas para mejorar tu desempeño.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Acceso 24/7</h3>
+                    <p>Disponibilidad permanente para que estudies cuando mejor te convenga.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Acceso Multiplataforma</h3>
+                    <p>Estudia desde cualquier dispositivo, en cualquier momento y lugar.</p>
+                </div>
+            </div>
         </div>
-    </div>
-    
-    <div class="result-exam" id="result-container" style="display:none;">
-        <h2>Resultados</h2>
-        <p class="score" id="score"></p>
-        <p class="time-taken" id="time-taken"></p>
-        <div id="review-questions"></div>
-        <div class="button-container">
-            <button class="backmain" onclick="backToMainMenu()">Regresar al Menú Principal</button>
+    </section>
+
+    <section class="product" id="producto">
+        <div class="product-bg">
+            <img src="setting/inicioapp.jpg" alt="Imagen producto 1" class="img1">
+            <img src="setting/menuapp.jpg" alt="Imagen producto 2" class="img1">
+            <img src="setting/siecopolapp.jpg" alt="Imagen producto 3" class="img1">">
+            <img src="setting/examenapp.jpg" alt="Imagen producto 4" class="img1">
+            <img src="setting/cel0.jpg" alt="Imagen producto 1" class="img2">
+            <img src="setting/cel1.jpg" alt="Imagen producto 2" class="img2">
+            <img src="setting/cel2.jpg" alt="Imagen producto 3" class="img2">">
+            <img src="setting/cel4.jpg" alt="Imagen producto 4" class="img2">            
         </div>
-    </div>
-    
+        <div class="product-container">
+            <h2>Paquete Completo de Preparación</h2>
+            <p>Todos nuestros servicios integrados en un solo producto para tu máxima comodidad y efectividad. Costo hasta la publicación de la directiva</p>
+            
+            <div class="price">S/ 20.00</div>
+            
+            <a href="https://wa.me/51948593198?text=Hola¡%20me%20puedes%20brindar%20los%20medios%20de%20pago%20para%20adquirir%20el%20balotario%20y%20simulador..." target="_blank" class="btn">Adquirir Ahora</a>
+        </div>
+    </section>
+
+    <section class="about" id="sobre-mi">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="setting/FOTOPERSONAL.jpg" alt="Efectivo PNP">
+                </div>
+                
+                <div class="about-content">
+                    <h2>Sobre Mí</h2>
+                    <p>Soy el S1 PNP Jhon Antony Rabanal Escobal, efectivo de la Policía Nacional del Perú, con 14 años de servicio, y a lo largo de mi trayectoria, he sido testigo de las barreras que dificultan la adecuada preparación para los exámenes de ascenso. La falta de acceso a herramientas eficientes, la presión del tiempo y la incertidumbre pueden ser obstáculos en el camino hacia el progreso profesional.</p>
+                    <p>Por ello, he desarrollado esta plataforma con el firme propósito de garantizar una preparación rigurosa, estratégica y efectiva. Aquí, cada recurso ha sido diseñado para optimizar el aprendizaje y maximizar el rendimiento, permitiendo a cada efectivo PNP alcanzar con éxito el tan anhelado ascenso al grado inmediato superior.</p>
+                    <p>Mi compromiso es inquebrantable: proporcionar un sistema de preparación que no solo fortalezca conocimientos, sino que también brinde seguridad y confianza a cada usuario. En este espacio, la excelencia profesional no es una opción, sino un derecho y una meta alcanzable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto y Soporte</h2>
+            </div>
+            
+            <div class="contact-grid">
+                
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp Ventas</h3>
+                    <p>Consultas sobre el producto</p>
+                    <a href="https://wa.me/51948593198?text=Hola¡%20me%20puedes%20brindar%20información%20sobre%20el%20balotario%20y%20simulador..." target="_blank">Enviar mensaje</a>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>WhatsApp Soporte Tecnico</h3>
+                    <p>cualquier problema con la plataforma 24/7</p>
+                    <a href="https://wa.me/51960099454?text=Hola¡%20tengo%20un%20inconveniente%20con%20la%20plataforma." target="_blank">Enviar email</a>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/186FHnpXog/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@estudioestrategic?_t=ZM-8wsz5aXq658&_r=1 " target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
     <div id="whatsapp-button">
         <img src="setting/whatsapp-fill.svg" alt="WhatsApp">
+
     </div>
     <div id="whatsapp-dialog" style="display: none;">
         <div id="whatsapp-header">
@@ -60,12 +168,19 @@
         </div>
         <div id="whatsapp-content">
             <p class="whatsapp-message">Hola! amigo PNP</p>
-            <p class="whatsapp-message">¿Quieres estudiar el balotario de forma didáctica?</p>
+            <p class="whatsapp-message">Cualquier duda o consulta</p>
             <p class="whatsapp-message">Escribenos ...</p>
             <button id="openChatButton">Abrir Chat</button>
         </div>
     </div>
-    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Estudios Estratégico Policial. Todos los derechos reservados.</p>
+            <p>Desarrollado por S1 PNP Jhon Antony Rabanal Escobal</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
     <script src="whatsapp.js"></script>
 </body>
