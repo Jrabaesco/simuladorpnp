@@ -9,7 +9,7 @@ document.getElementById('close-dialog').addEventListener('click', function() {
 });
 
 document.getElementById('openChatButton').addEventListener('click', function() {
-    var phoneNumber = '51948593198';
+    var phoneNumber = '51910342435';
     var whatsappUrl = 'https://wa.me/' + phoneNumber + '?text=Hola! deseo información con relación al balotario dinámico';
     window.open(whatsappUrl, '_blank');
 });
